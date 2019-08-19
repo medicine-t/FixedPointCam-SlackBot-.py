@@ -13,9 +13,9 @@ with picamera.PiCamera() as camera:
     time.sleep(2)
     filename = datetime.now().strftime('%Y%m%d%H%M%S')
     camera.capture('picture.jpg')
-    token = ''
+    token = 'YOURTOKEN'
  
-    channel = ''
+    channel = 'BOTCHANNNELID'
     
     filename = 'picture.jpg'
     
