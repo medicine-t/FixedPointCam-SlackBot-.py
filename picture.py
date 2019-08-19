@@ -13,11 +13,11 @@ with picamera.PiCamera() as camera:
     time.sleep(2)
     filename = datetime.now().strftime('%Y%m%d%H%M%S')
     camera.capture('picture.jpg')
-    token = 'xoxb-731613572614-718853043987-vsKkSBlNb0tqUhgKjcRHmhss'
+    token = ''
  
-    channel = 'CM9SNU533'
+    channel = ''
     
-    file = '/home/pi/Desktop/Camera/picture.jpg'
+    filename = 'picture.jpg'
     
     HTU21DF.htu_reset
     temperature = HTU21DF.read_temperature()
